@@ -9,14 +9,17 @@ const UserSchema = new Schema(
     email: {
         type: String
     },
-    createdBy: {
-        type: String
-      },
       createdAt: {
         type: Date,
         default: Date.now
       },
-      thoughts: [],
+      thoughts: [ 
+      {
+        type: Schema.Types.ObjectId,
+        ref: "Thought"
+      }
+      ],
+      friends: []
 },
 {
     toJSON: {
@@ -27,6 +30,11 @@ const UserSchema = new Schema(
     id: false
   }
 )
+
+//get total count of thoughts and reply on retrival 
+UserSchema.virtual("thoughtCount").get(function(){
+  return this.thought.length;
+})
 
 //create the User model using userSchema 
 const User = model('User', UserSchema);
