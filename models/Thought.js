@@ -14,7 +14,7 @@ const ReactionSchema = new Schema(
         type: String,
         required: true,
       },
-      reactedBy: {
+      username: {
         type: String,
         required: true,
         trim: true,
@@ -45,6 +45,7 @@ const ThoughtSchema = new Schema(
     },
     username: {
       type: String,
+      ref: 'User'
     },
     // user ReachtionSchema to validate for a reaction
    reactions: [ReactionSchema]
