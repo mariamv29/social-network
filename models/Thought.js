@@ -8,6 +8,7 @@ const ReactionSchema = new Schema(
       // set custom id to avoid confusion with parent thought _id
       reactionId: {
         type: Schema.Types.ObjectId,
+        required: true, 
         default: () => new Types.ObjectId(),
       },
       reactionBody: {
@@ -17,7 +18,6 @@ const ReactionSchema = new Schema(
       username: {
         type: String,
         required: true,
-        trim: true,
       },
       createdAt: {
         type: Date,
