@@ -49,7 +49,10 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 
 ## Usage 
-
+* Run `npm install` 
+* Run `npm start`
+* Open Insomnia 
+* Begin routing!
 
 ---
 
