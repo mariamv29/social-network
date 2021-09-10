@@ -1,13 +1,9 @@
 # social-network
-
-
-
 ## Description 
-e-commerce is a back end site. Takes a working Express.js API and Sequelize with a MYSQL database. 
-The site is ran through Insomnia. When running `npm start`, Insomina takes different server resquest for each model. Each model has different routes to GET, POST, PUT, DELETE data.
+Social Network is a application built with an API. This application allows a user to create a friend's list, share thoughts and react to eachother's thoughts. The techonologies used are: Express,js is being utilized for routing. MondoDB database and Mongoose ODM and JavaScript to format the data stamps on each post. 
 
 
-![screenshot]()
+![screenshot](./assets/images/screenshot.jpg)
 
 ### Full Movie
 [movie](
