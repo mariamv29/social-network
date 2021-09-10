@@ -7,8 +7,8 @@ Social Network is a application built with an API. This application allows a use
 
 ### Full Movie
 Seperated into two videos:
-[movie](https://drive.google.com/file/d/1uglwYMsT0YC4HUGdtLoBamd28HreCoYL/view)
-[movie](https://drive.google.com/file/d/1K2I-wETeKJdWRPqvbElHHOc8kxMCDiaw/view)
+[Part I](https://drive.google.com/file/d/1uglwYMsT0YC4HUGdtLoBamd28HreCoYL/view)
+[Part II](https://drive.google.com/file/d/1K2I-wETeKJdWRPqvbElHHOc8kxMCDiaw/view)
 ## User Story
 
 ```
